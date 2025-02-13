@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/saiteja-adapa-2909/flask-docker-app.git>.git'
+                git branch: 'main', url: 'https://github.com/saiteja-adapa-2909/flask-docker-app.git'
             }
         }
 
